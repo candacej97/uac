@@ -1,0 +1,4 @@
+/* get rid of the ul list style */
+ul {
+    list-style: none;
+}

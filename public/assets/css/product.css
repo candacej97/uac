@@ -1,3 +1,16 @@
+
+/* delete border on the cards of the home page */
+.card {
+  border: none;
+}
+
+
+
+
+
+/* ////////////////BOOTSTRAP PRODUCT PAGE DEFAULT STYLES////////////// */
+
+
 .container {
     max-width: 960px;
   }
@@ -77,3 +90,5 @@
   }
   
   .overflow-hidden { overflow: hidden; }
+
+  /* ////////////////END BOOTSTRAP PRODUCT DEFAULT STYLES/////////////// */
