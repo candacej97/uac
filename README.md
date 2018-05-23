@@ -1,1 +1,1 @@
-# uac
+# United Apostolic Church (UAC)
