@@ -15,6 +15,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <!-- Custom styles -->
     <link href="../assets/css/product.css" rel="stylesheet">
+    <link href="../assets/css/about.css" rel="stylesheet">
   </head>
 
   <body>
@@ -34,22 +35,20 @@
     </nav>
 
     <div class="container">
-        <h1>About Us</h1>
-        <ul>
-            <li><a href="#history">History</a></li>
-            <li><a href="#believe">What We Believe</a></li>
-            <li><a href="#mission">What We Strive For</a></li>
-            <li><a href="#leadership">Leadership</a></li>
-            <li><a href="#ministries">Ministries</a></li>
+        <h1 style="text-align:center;">About Us</h1>
+        <ul class="row">
+            <li class="col"><a href="#history">History</a></li>
+            <li class="col"><a href="#believe">What We Believe</a></li>
+            <li class="col"><a href="#mission">What We Strive For</a></li>
+            <li class="col"><a href="#leadership">Leadership</a></li>
+            <li class="col"><a href="#ministries">Ministries</a></li>
         </ul>
         <br><br><br>
-        <div>
+        <div id="section-history">
+            <h3 id="section-history-title">History</h3>
+            <img src="holder.js/300x200" class="img-fluid" alt="Responsive image for the history section of the 'About' page.">
             <div>
-                <h3 id="history">History</h3>
-                <img src="holder.js/300x200" class="img-fluid" alt="Responsive image for the history section of the 'About' page.">
-            </div>
-            <div>
-                <h5>1980 - Today</h5>
+                <h5>1990 - Today</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id tempor elit, sit amet cursus neque. Donec pharetra urna nec arcu dictum, id vulputate risus tincidunt. Quisque sed sodales diam. In non consequat leo. Suspendisse pulvinar metus et augue porttitor semper. Etiam maximus fringilla libero, a scelerisque quam suscipit vel. Phasellus vel libero mauris. Suspendisse neque augue, cursus vel mauris nec, venenatis sagittis massa. Donec lobortis nunc faucibus, aliquam quam nec, vulputate felis. Etiam sit amet eros sit amet purus aliquam ullamcorper ut sed urna. Pellentesque nibh dui, semper sit amet pharetra quis, elementum in ipsum. Sed rutrum elit sed lacus finibus imperdiet. Quisque sollicitudin arcu sed arcu semper hendrerit.</p>
                 <p>Mauris lobortis mauris vel ex sodales, id porta diam fermentum. Donec porttitor sapien enim, et interdum ex bibendum vel. Phasellus fringilla, lorem ac ultrices semper, tortor nulla blandit velit, quis mattis sapien magna quis tortor. Sed cursus massa eu malesuada condimentum. Ut pulvinar imperdiet justo ac eleifend. Vestibulum ipsum neque, maximus vitae congue et, fringilla in magna. Aliquam placerat neque vitae leo sodales, ac suscipit urna aliquet. Phasellus a blandit metus, ac venenatis metus. In luctus vulputate urna, a sodales augue consequat sit amet. Cras arcu elit, pulvinar non nisi eget, fermentum porttitor lorem.</p>
             </div>
@@ -59,7 +58,7 @@
             <h3 id="believe">What We Believe</h3>
             <p>Ut pulvinar imperdiet justo ac eleifend. Vestibulum ipsum neque, maximus vitae congue et, fringilla in magna. Aliquam placerat neque vitae leo sodales, ac suscipit urna aliquet. Phasellus a blandit metus, ac venenatis metus. In luctus vulputate urna, a sodales augue consequat sit amet. Cras arcu elit, pulvinar non nisi eget, fermentum porttitor lorem.</p>
         </div>
-        
+
         <div>
             <h3 id="mission">What We Strive For</h3>
             <p>Ut pulvinar imperdiet justo ac eleifend. Vestibulum ipsum neque, maximus vitae congue et, fringilla in magna. Aliquam placerat neque vitae leo sodales, ac suscipit urna aliquet. Phasellus a blandit metus, ac venenatis metus. In luctus vulputate urna, a sodales augue consequat sit amet. Cras arcu elit, pulvinar non nisi eget, fermentum porttitor lorem.</p>
@@ -134,6 +133,7 @@
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.js"></script>
+    <script src="../assets/js/link-reaction.js"></script>
     <script>
       Holder.addTheme('thumb', {
         bg: '#55595c',
